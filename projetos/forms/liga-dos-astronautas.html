@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Cadastro Liga dos Astronautas</title>
+</head>
+
+<body>
+   <h1>Cadastro Liga dos Astronautas</h1>
+   <form>
+      <!-- Dados Pessoais -->
+
+      <label for="fname">Nome: </label>
+      <input type="text" name="fname" id="fname"><br><br>
+
+      <label for="fmail">e-mail: </label>
+      <input type="email" name="fmail" id="fmail">
+
+      <label for="fpassword">senha: </label>
+      <input type="password" name="fpassword" id="fpassword"><br><br>
+
+      <label for="fdataNascimento">Data Nascimento: </label>
+      <input type="date" name="fdataNascimento" id="fdataNascimento">
+
+      <label for="ffoto">Foto: </label>
+      <input type="file" name="ffoto" id="ffoto" alt="Foto para curriculo"><br><br>
+
+      <label for="fpaisDeOrigem">País de Origem: </label>
+      <select name="fpaisDeOrigem" id="fpaisDeOrigem">
+         <option value="Brasil">Brasil</option>
+         <option value="Argentina">Argentina</option>
+         <option value="Mexico">México</option>
+      </select>
+      <br>
+      <br>
+      Genero:
+      <label for="fGeneroMasculino">Masculino</label>
+      <input type="radio" name="fgenero" value="Masculino" id="fGeneroMasculino">
+      <label for="fGeneroFeminino">| Feminino</label>
+      <input type="radio" name="fgenero" value="Feminino" id="fGeneroFeminino">
+      <label for="fGeneroOutros">| Outros</label>
+      <input type="radio" name="fgenero" value="Outros" id="fGeneroOutros">
+      <!-- FIM Dados Pessoais -->
+
+      <!-- Dados Habilidades -->
+      <div>
+         <p>Suas habilidades</p>
+         <label for="finteligencia">Inteligência</label>
+         <input type="checkbox" name="finteligencia" id="finteligencia">
+
+         <label for="fresiliencia">Resiliência</label>
+         <input type="checkbox" name="fresiliencia" id="fresiliencia">
+
+         <label for="fgestaoTempo">Gestão de tempo</label>
+         <input type="checkbox" name="fgestaoTempo" id="fgestaoTempo">
+
+
+         <br>
+         <br>
+
+         <textarea name="description" id="description" cols="30" rows="10"
+            placeholder="motivos pelos quais deseja entrar para a liga."></textarea><br>
+
+      </div>
+
+      <button type="submit">Enviar respostas</button>
+
+   </form>
+
+</body>
+
+</html>
