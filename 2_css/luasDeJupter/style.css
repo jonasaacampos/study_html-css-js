@@ -1,0 +1,15 @@
+li{
+   color:cornflowerblue;
+}
+
+h1, h4{
+   text-align: center;
+   border: 3px whitesmoke solid;
+   border-radius: 10%;
+}
+
+body{
+   background-image: url("https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029_640.jpg");   
+   background-repeat: no-repeat;
+   background-size: cover;
+}
