@@ -223,5 +223,22 @@ O modelo de caixa CSS é essencialmente uma caixa que envolve cada elemento HTML
 - **Border**  Uma borda que contorna o preenchimento e o conteúdo
 - **Margin**  Limpa uma área fora da fronteira. A margem é transparente
 
+</details>
+
+<details>
+<summary>Bulma</summary>
+
+> Framework do css para econimizar trabalho. Acesse [Bulma](https://bulma.io/)
+> É possível baixar do cdn tambem [bulma](https://cdnjs.com/libraries/bulma)
+
+https://cdnjs.com/libraries/font-awesome
+
+inserir como link e como script
+
+- https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css
+
+- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js
+
+
 
 </details>
