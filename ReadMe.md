@@ -124,6 +124,22 @@ Então para modificar múltiplos valores de propriedades de uma vez, você deve 
 </details>
 
 <details>
+<summary><strong>Cores</strong></summary>
+
+Para definir cores no css, podemos usar
+- nome
+- valor RGB
+- Valor Hexadecimal
+- Valor HSL (css3)
+- Valor HWB (css4)
+
+O mais utilizado hoje em dia é o hexadecimal
+
+![](2_css/corHexadecimal.png)
+
+</details>
+
+<details>
 <summary><strong>Seletores em CSS</strong></summary>
 
 > A Mozilla possui uma tabela com todos os seletores. [Reference table of selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#reference_table_of_selectors).
@@ -173,3 +189,39 @@ Então para modificar múltiplos valores de propriedades de uma vez, você deve 
 
 </details>
 
+<details>
+<summary>Fontes</summary>
+
+> Recomendado utilizar fontes online ao invés de fontes disponíneis no navegador do usuário. Use o [Google fonts](https://fonts.google.com/).
+
+**Famílias de fontes genéricas**
+
+Em CSS existem cinco famílias de fontes genéricas:
+
+1. As **fontes com serifa** têm um pequeno traço nas bordas de cada letra. Eles criam uma sensação de formalidade e elegância.
+2. As **fontes sem serifa** têm linhas limpas (sem pequenos traços anexados). Eles criam um visual moderno e minimalista.
+3. **Fontes monoespaçadas** - aqui todas as letras têm a mesma largura fixa. Eles criam uma aparência mecânica.
+4. As **fontes cursivas** imitam a caligrafia humana.
+5. **Fontes de fantasia** são fontes decorativas/lúdicas.
+
+*Todos os nomes de fontes diferentes pertencem a uma das famílias de fontes genéricas.*
+
+</details>
+
+<details>
+<summary>O modelo de caixa CSS (Box Model)</summary>
+
+Em CSS, o termo "modelo de caixa" é usado quando se fala de design e layout.
+
+O modelo de caixa CSS é essencialmente uma caixa que envolve cada elemento HTML. Ele consiste em: margens, bordas, preenchimento e o conteúdo real. A imagem abaixo ilustra o modelo da caixa:
+
+![](https://www.kasandbox.org/programming-images/misc/boxmodel.png)
+
+
+- **Content** é o conteúdo da caixa, onde o texto e as imagens aparecem
+- **Padding**  Limpa uma área ao redor do conteúdo. O forro é transparente
+- **Border**  Uma borda que contorna o preenchimento e o conteúdo
+- **Margin**  Limpa uma área fora da fronteira. A margem é transparente
+
+
+</details>
