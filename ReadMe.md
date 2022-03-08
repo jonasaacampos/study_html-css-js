@@ -1,7 +1,7 @@
 # Front End 📘 HTML, CSS e JS 📘 !
 
 >  Relembrando e aprendendo conceitos de front-end
-
+> Além  de treino, este repositório serve também como um compilado de documentação e um mapa mental pessoal sobre programação web.  Para mais projetos confira [esta página](https://github.com/jonasaacampos).
 ## Table of Contents
 
 1. [HTML5 - "*puro*"](#html-5)
