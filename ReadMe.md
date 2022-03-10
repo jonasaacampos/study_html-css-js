@@ -234,14 +234,20 @@ O modelo de caixa CSS é essencialmente uma caixa que envolve cada elemento HTML
 > Framework do css para econimizar trabalho. Acesse [Bulma](https://bulma.io/)
 > É possível baixar do cdn tambem [bulma](https://cdnjs.com/libraries/bulma)
 
+Ao invés de inserir o arquivo css no diretório do nosso site, podemos usar o **arquivo disponível no CDN.**
+
 https://cdnjs.com/libraries/font-awesome
 
 inserir como link e como script
 
-- https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css
+` https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css`
 
-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js
+`https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js`
 
+**Componentes**
+
+Podemos baixar componentes elegantes e pré configurados nos componentes do bulma 
+https://bulma.io/documentation/components/
 
 
 </details>
