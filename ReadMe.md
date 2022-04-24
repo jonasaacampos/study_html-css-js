@@ -7,7 +7,7 @@
 
 1. [HTML5 - "*puro*"](#html-5)
 2. [CSS](#css)
-
+3. [Java Script](#js)
 
 ---
 <img  src="https://cdn-icons-png.flaticon.com/512/136/136528.png"  width=50 align=right>
@@ -246,6 +246,61 @@ inserir como link e como script
 
 Podemos baixar componentes elegantes e pré configurados nos componentes do bulma 
 https://bulma.io/documentation/components/
+</details>
 
+---
+
+[//]: # (<img  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  width=50 align=right>)
+<img  src="https://cdn-icons.flaticon.com/png/512/3097/premium/3097978.png?token=exp=1650836264~hmac=435bc12487ab11aba2c2fca68b02ead8"  width=50 align=right>
+
+## Java Script
+
+<details>
+<summary>Declaração de Variáveis</summary>
+
+- `let` para declarar variáveis
+- `const` declara variáveis que não podem ser mudadas (constantes)
+- `var` igual à let, utilizada em versões anteriores
+</details>
+
+<details>
+<summary>Interagindo com o usuário</summary>
+
+- `console.log || console.info` registra no console informações
+- `prompt` - pede informações de texto para usuário
+- `confirm` - confirma dados e gera um valor lógico
+- `alert` - exibe um popup de alerta
+</details>
+
+<details>
+<summary><strong>Condicionais (IF | SWITCH CASE)</strong></summary>
+
+Síntaxe: 
+``` 
+if(condicao){
+    bloco de código...
+}else if (condição) {
+    bloco de código...
+}else {
+    bloco de código...
+}
+``` 
+*Pode-se* utilizar do operador ternário caso a condição possua poucas linhas
+
+**Mas os blocos condicinais são mais legíveis.**
+
+```
+switch (variavel) {
+    case x:
+    case y:
+    ...
+    case z:
+        bloco de código...
+        break
+    default
+        bloco de código...
+        break
+}
+```
 
 </details>
