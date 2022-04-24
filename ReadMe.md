@@ -7,7 +7,7 @@
 
 1. [HTML5 - "*puro*"](#html-5)
 2. [CSS](#css)
-3. [Java Script](#js)
+3. [Java Script](#java-script)
 
 ---
 <img  src="https://cdn-icons-png.flaticon.com/512/136/136528.png"  width=50 align=right>
@@ -251,7 +251,7 @@ https://bulma.io/documentation/components/
 ---
 
 [//]: # (<img  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  width=50 align=right>)
-<img  src="https://cdn-icons.flaticon.com/png/512/3097/premium/3097978.png?token=exp=1650836264~hmac=435bc12487ab11aba2c2fca68b02ead8"  width=50 align=right>
+<img  src="img/js.png"  width=50 align=right>
 
 ## Java Script
 
