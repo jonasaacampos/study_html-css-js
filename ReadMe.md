@@ -304,3 +304,184 @@ switch (variavel) {
 ```
 
 </details>
+
+<details>
+<summary><strong>Loops</strong></summary>
+
+Repete um bloco de código N vezes ou até que uma condição seja atendida
+
+```
+while (condição){
+    bloco de código...
+}
+```
+
+Enquanto o while recebe uma única expressão, no `for` podemos adicionar variáveis para conrolar as iterecações
+
+```
+for (variável,  expressão, ação de controle){
+    bloco de código...
+}
+```
+
+```
+do {
+    bloco de código
+} wilhe(condiçao)
+```
+</details>
+
+<details>
+<summary><strong>Funções</strong></summary>
+
+Função é um bloco de código **nomeado** que executa uma determinada ação, e podemos utilizar este bloco a qualquer momento
+
+```
+function algumaTarefa() {
+    bloco de código
+}
+```
+
+Para chamar uma função, basta escrever:
+`algumaTarefa()`
+
+Funções com valores padrão
+
+```
+function cumprimentarUsuario(name, message = "Oi") {
+    alert(message + name + "!")
+}
+```
+Resultados ao chamar a função:
+
+```
+cumprimentarUsuario("Jonas")
+// Oi Jonas!
+
+cumprimentarUsuario("Jonas", "Seja bem vindo!")
+// Seja Bem vindo Jonas!
+
+```
+**BOA PRÁTICA**
+_Utilize variáveis com valores padrão sempre como último parâmetro da função_
+</details>
+
+<details>
+<summary><strong>Escopo</strong></summary>
+ - Variáveis declaradas com `let` fora da estrutra do bloco, possui escopo global
+ - Caso a variável seja declarada dentro do bloco, ela possui escopo local
+ - declarar variaveis com `var`, faz com que esta possua um nivel maior do que a do escopo atual
+
+</details>
+
+<details>
+<summary><strong>Funções Anônimas</strong></summary>
+
+São funções que não possuem nome, que são adicionadas dentro de variáveis
+
+```
+let doubleSpeed = function(velocity) {
+    return velocity * 2
+}
+
+
+let newVelocity  = doubleSpeed(40)
+
+console.log(newVelocity)
+// 80
+
+```
+
+**Importante**
+
+- Funções tradicionais são lidas sempre primeiro, mesmo que esteja no final do código
+- Funçẽos anônimas seguem a ordem de execução do código
+
+</details>
+
+<details>
+<summary><strong>Arrow Functions</strong></summary>
+
+São também **funções anônimas**. São funções reduzidas.
+
+```
+const doubleVelocity = () => {
+
+}
+
+
+const doubleVelocity = (parametro) => {
+
+}
+
+```
+
+Para funções com apenas uma linha, podemos escrever:
+
+```
+const doubleVelocity  = (velocity) => velocity * 2
+
+/* Chamando a função*/
+
+conlose.log(doubleVelocity(60))
+//120
+```
+</details>
+
+<details>
+<summary><font color="red" ><strong>Funções de Alta Classe</strong> (High Order Functions)</font></summary>
+
+- São funções que recebem e retorna outras funções
+- Quando uma HOF recebe uma função, _geralmente_ são funções anônimas (ou arrows functions)
+- A função enviada como parâmentro de uma HOF é denominada de **callback**
+
+```
+//função tradicionas
+function doubleVelocity(velocity, printer) {
+    console.log("acessei a função...")
+    let newVelocity = velecity * 2
+    printer(newVelocity)
+    return newVelocity
+}
+
+//funçao anonima (arrow function)
+let printVelocity =  velocity => {
+    console.log("Nova velociadade: " + velocity + "Km/s.")
+}
+
+//funçao anonima
+let newVelocity = doubleVelocity(60, printVelocity)
+
+console.log(newVelocity)
+    /*output...*/
+// "acessei a função..."
+// "Nova velociadade: 120 Km/s."
+// 120
+
+```
+Um outro exemplo de HOF
+
+```
+function doubleVelocity(velocity, printer) {
+    console.log("acessei a função...")
+    let newVelocity = velecity * 2
+    printer(newVelocity)
+    return newVelocity
+}
+
+let anotherVelocity = doubleVelocity(50, velocity => {
+console.log("Outra velocidade é de: " + velocity)  
+}
+
+    /*output...*/
+// "acessei a função..."
+// "Outra velocidade é de: 100"
+
+
+```
+
+
+</details>
+
+## Crédito das imagens
+As logomarcas (no título de cada seção) são do [FlatIcon](https://www.flaticon.com/br/).
