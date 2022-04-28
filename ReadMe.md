@@ -477,6 +477,100 @@ console.log("Outra velocidade é de: " + velocity)
 // "acessei a função..."
 // "Outra velocidade é de: 100"
 
+```
+</details>
+
+<details>
+<summary><strong>Arrays</strong></summary>
+  
+- Array é uma estrutura de dados capaz de armazenar (*quaisquer*) outros dados
+- É organizado em forma de lista
+
+```
+let navesDisponiveis = ["Supernova", "Elemental", "SuperSuperSuperNova"]
+
+console.log(navesDisponiveis[2])
+// ¨SuperSuperSuperNova" 
+
+let navesAtracadas = new Array("Supernova", "Elemental")
+```
+</details>
+
+<details>
+<summary><strong>Métodos para Arrays</strong></summary>
+
+**Adicionar elementos no início ou final**
+
+Os métodos devem podem ser utilizados adicionando um **"."** ao final do variavel array
+
+- `push("elemento...")` adiciona um elemento ao final do array
+- `unshift("elemento...")` adiciona um elemento ao final do array
+- `pop()` remove o último elemento e retorna qual elemento foi removido
+- `shift()` remove o primeiro elemento e retorna qual elemento foi removido
+- `length` retorna o tamanho do array
+- `indexOf("elemento...")` - retorna a posição do 
+  - caso não encontrar o elemento, retorna **-1**
+
+---
+**Adicionando elementos no meio do array**
+
+**Splice**
+
+- significa _costurar, emendar_
+- substitui o array original
+
+*Sintaxe*
+
+1. Recebe o índice,
+2. a qunatidade de elementos a serem removidos partindo deste índice, 
+3. os próximos elementos que serão adicionados
+4. apenas o **primeiro elemento** é obrigatório
+
+```
+array.splice(index[, deleteCount[, elemento1[,...[,elementoN]]])
+```
+
+------
+**Slice**
+
+- significa _fatiar, dividir_
+- extrai parte do array, sem alterar o array original
+
+_Sintaxe_
+
+1. Possui um parâmetro de índice
+2. O segundo parâmentro é o íncide final
+
+```
+arr.slice([begin[,end]])
+```
+
+</details>
+
+<details>
+<summary><strong>Arrays multidimencionais</strong></summary>
+
+```
+let dadosNavesEmOrbitaComTrupulantes = [["Supernova", 7], ["Elemental", 3], "[SuperSuperNova, 2]"]
+
+console.log(dadosNaveEmOrbitaComTripulantes[0])
+// ["Supernova", 7]
+
+```
+</details>
+
+<details>
+<summary><strong>Iteração em Arrays</strong></summary>
+
+- HOF's receberão um callback como parâmetro
+- o callback é chamado para cada elemento do array
+
+_Sintaxe_
+
+```
+arr.funcaoDeIteracao(function(elementoAtual, index, array){
+  <corpo da função...>
+})
 
 ```
 
