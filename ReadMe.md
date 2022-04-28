@@ -573,8 +573,48 @@ arr.funcaoDeIteracao(function(elementoAtual, index, array){
 })
 
 ```
+</details>
+
+<details>
+<summary><strong>Objetos</strong></summary>
+
+Assim como os arrays, objetos são estrututas de dados capazes de armazenar e organizar outros dados.
+
+- Dados são organizados através de propriedades
+- Associados por chave-valor
+  - chave é a propriedade
+  - valor é o dado em si referente àquela propriedade
+- Pode armazenar qualquer tipo de dado
+
+_Utilizamos {} para iniciar um objeto._
+
+```
+let espaconave = {
+  name: "Apolo",
+  capacidade: 7,
+  type: "exploração"
+}
+
+//acessando informações
+console.log(espaconave.type)
+console.log(espaconave["type"])
+
+//inserindo informações
+
+espaconave.emManutencao = false
+espaconave["escudoIntegridade"]  = 100
+```
+**Objetos X Arrays**
+
+- Objetos são estruturas chave-valor
+- Utiliza-se objetos quanto precisamos representar propriedades ou atruibutos do mundo real
+- arrays são listas sequenciais
+- utilizamos arrays quando precisamos armazenar uma lista sequencial de elementos
 
 
+**Método é uma sequência de passos para mostrar dads**
+
+**Classe é uma abstraçã que pode ser representada em variáveis**
 </details>
 
 ## Crédito das imagens

@@ -1,0 +1,10 @@
+body {
+    background-image: url(nave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2c3e50;
+}
+
+h1 {
+    color: antiquewhite;
+}
