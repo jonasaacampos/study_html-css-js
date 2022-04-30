@@ -250,7 +250,7 @@ https://bulma.io/documentation/components/
 
 ---
 
-(<img  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  width=50 align=right>
+<img  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  width=50 align=right>
 
 
 ## Java Script
