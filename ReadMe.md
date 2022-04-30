@@ -250,8 +250,8 @@ https://bulma.io/documentation/components/
 
 ---
 
-[//]: # (<img  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  width=50 align=right>)
-<img  src="img/js.png"  width=50 align=right>
+(<img  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  width=50 align=right>
+
 
 ## Java Script
 
@@ -618,4 +618,4 @@ espaconave["escudoIntegridade"]  = 100
 </details>
 
 ## Crédito das imagens
-As logomarcas (no título de cada seção) são do [FlatIcon](https://www.flaticon.com/br/).
+As logomarcas (no título de cada seção) são do <a hret="https://www.flaticon.com/br/" target="_blank">FlatIcon.</a>
