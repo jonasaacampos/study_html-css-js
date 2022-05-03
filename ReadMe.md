@@ -617,5 +617,17 @@ espaconave["escudoIntegridade"]  = 100
 **Classe é uma abstraçã que pode ser representada em variáveis**
 </details>
 
+<details>
+<summary><strong>Excessão</strong></summary>
+
+- Excessões são erros no código que ocorrem em tempo real
+- Podem ser tratados para que a aplicação não quebre
+- No JS as excessões são lançadas pela classe `Error`
+
+Podemos tratar os erros gerados com o `try` e `catch`, lançando assim os erros com o `throw`.
+
+
+</details>
+
 ## Crédito das imagens
 As logomarcas (no título de cada seção) são do <a hret="https://www.flaticon.com/br/" target="_blank">FlatIcon.</a>
