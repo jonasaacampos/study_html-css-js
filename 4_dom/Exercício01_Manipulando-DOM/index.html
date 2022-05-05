@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de casas</title>
+    <script src="index.js"></script>
+</head>
+<body>
+
+<h1>Lista de Casas para visita</h1>
+<p>
+    Preencha o endereço para visitação
+</p>
+<br>
+<hr>
+
+<form id="add-casas">
+
+     <label>Cidade: </label>
+    <input type="text" name="cidade">
+
+
+    <label>Bairro: </label>
+    <input type="text" name="bairro">
+
+    <label>Número: </label>
+    <input type="text" name="numero">
+
+    <label>Área(m²): </label>
+    <input type="text" name="area">
+
+    <br>
+    <br>
+    <button id="novaCasa" onclick="salvarCasa()" type="button">Inserir casa</button>
+</form>
+
+<ul id="casas-list"></ul>
+
+
+</body>
+</html>

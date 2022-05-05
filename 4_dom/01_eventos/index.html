@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos no HTML</title>
+    <script src="js/events.js"></script>
+</head>
+<body>
+<p>
+    <button onclick="clickMe()">Clique em mim...</button>
+</p>
+
+<p>
+    Foco
+    <input onfocus="focusMe()" type="text" name="focus-text">
+</p>
+
+<p>
+    DESFoco
+    <input onblur="blurMe()" type="text" name="blur-text">
+</p>
+<p>
+    Mudar
+    <input onchange="changeMe()" type="text" name="change-text">
+</p>
+
+<p onmouseover="overMe()">Passe o mouse sobre...</p>
+
+
+</body>
+</html>

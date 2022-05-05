@@ -626,8 +626,59 @@ espaconave["escudoIntegridade"]  = 100
 
 Podemos tratar os erros gerados com o `try` e `catch`, lançando assim os erros com o `throw`.
 
+</details>
+
+
+---
+
+<img  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"  width=50 align=right>
+
+
+## Documento Object Model - DOM
+
+O Modelo de Objeto de Documento (DOM) possibilita que uma linguagem de marcação seja acessado como uma árvore de objetos
+
+- Selecionar e/ou alterar determinado elemento da página
+- Capturar o valor digitado
+
+Por padrão o navegador traz uma instância do DOM pronta para uso. Para acessá-las basta chamar a palavra reservada `document`, que é a raiz de toda árvore DOM.
+
+
+<details>
+<summary><strong>Math e Date</strong></summary>
+
+**Math:** Math é um objeto embutido que tem propriedades e métodos para constantes e funções matemáticas. Não é um objeto de função. 
+Referência para consulta: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+```
+console.log(Math.pow(5,3))
+console.log(Math.PI)
+console.log(Math.sqrt(64))
+```
+**Date:** Cria uma instância JavaScript de Date que representa um único momento no tempo. Objetos Date são baseados no valor de tempo que é o número de milisegundos desde 1º de Janeiro de 1970 (UTC).
+Referência:  https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+```
+// no Date o primeiro mês é o 0.
+let meuAniversario = new Date(2022, 4, 25)
+console.log(meuAniversario)
+
+// mostra quantos milessegundos transcorreram-se a partir da data padrão
+let hoje = Date.now()
+console.log(hoje)
+```
 
 </details>
+
+<details>
+<summary><strong>Eventos no HTML</strong></summary>
+- Eventos são quaisquer ações ocorridas no sistea
+
+**Referência:** https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+
+</details>
+
 
 ## Crédito das imagens
 As logomarcas (no título de cada seção) são do <a hret="https://www.flaticon.com/br/" target="_blank">FlatIcon.</a>
