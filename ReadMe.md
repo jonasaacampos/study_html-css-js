@@ -674,7 +674,20 @@ console.log(hoje)
 <summary><strong>Eventos no HTML</strong></summary>
 - Eventos são quaisquer ações ocorridas no sistea
 
+- Funções obedecem sempre o escopo de sua criação
+- Arrow functions obedecem o local de onde foram executadas
+
 **Referência:** https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+</details>
+
+<details>
+<summary><strong>Módulos</strong></summary>
+
+- São arquivos de código que dividimos para importar quando necessário, de modo a permitir
+  - reusabilidade
+  - manutenibilidade
+  - separação de contextos
 
 
 </details>
