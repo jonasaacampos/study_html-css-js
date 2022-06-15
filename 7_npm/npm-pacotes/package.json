@@ -1,0 +1,19 @@
+{
+  "name": "npm-class",
+  "version": "1.0.0",
+  "description": "Aula para estudo de np,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "class",
+    "study"
+  ],
+  "author": "Jonas Campos",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}

@@ -682,16 +682,73 @@ console.log(hoje)
 </details>
 
 <details>
+<summary><strong>JS moderno</strong></summary>
+
+- O JavaScript não possui uma evolução consistente
+- A versão mais recente dos navegadores nunca será executada pelos navegadores
+
+Conferir quais recursos são suportados
+[Browser comparison | Can I use...](caniuse.con)
+
+**Desentruturação de objetos e arrays**
+
+
+**Node e Yarn**
+
+São gerenciadores concorrentes para pacotes javascript
+- O yarn foi criado pelo Facebook, para solucionar problemas de performance do node
+- O node após o susrgimento do yarn corrigiu diversas destas questões
+
+Responsáveis por instalar dependências da aplicação 
+
+```
+npm init
+npm install moment --save
+```
+
+**Transpilação Babel**
+
+Transpilar é converter o código de uma linguage para outra
+
+```
+// --save deve para que os pacotes não subam para produção
+npm install @babel/core @babel/cli @babel/preset-env --save dev
+```
+
+**Webpack**
+
+Possuir todo o front-end modularizado no js
+
+`npm install --save-dev webpack webpack/cli`
+
+</details>
+
+<details>
 <summary><strong>Módulos</strong></summary>
 
 - São arquivos de código que dividimos para importar quando necessário, de modo a permitir
   - reusabilidade
   - manutenibilidade
   - separação de contextos
+- Antes do ES6 o js não possuía o tratamento de módulos
+- Foram criados vários padrões, dentre eles o CommonJS
+  - é uma especificação de modularização para o js
+- É o padrão que o NodeJs adota
+  - graças ao babel podemos utilizá-lo no front-end
 
+<details>
+<summary><strong>React</strong></summary>
+React é uma biblioteca de JavaScrip declarativa, eficiente e flexível para crialção de interfaces de usuário(UI)
 
-</details>
+- é uma biblioteca, e não um framework
+- baseado em componente
+- é usado para criar SPAs
 
+**React App**
+
+npx create-react-app my-first-app
+
+<details>
 
 ## Crédito das imagens
 As logomarcas (no título de cada seção) são do <a hret="https://www.flaticon.com/br/" target="_blank">FlatIcon.</a>
