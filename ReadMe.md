@@ -748,6 +748,16 @@ React é uma biblioteca de JavaScrip declarativa, eficiente e flexível para cri
 
 npx create-react-app my-first-app
 
+**Função Pura**
+
+- recebe parâmetros mais não altera seus valores, somente retorna algo
+- SEMPRE retorna o mesmo resultado para os mesmos tipos de entrada
+- Todos os componentes devem ter funções puras em relação com suas props
+
+**Props X Statement**
+- props vem de outras classes
+- statements vem de dentro da classe
+
 <details>
 
 ## Crédito das imagens
